@@ -22,6 +22,15 @@ body {
     vertical-align: middle;
 }
 
+.title-quote {
+    color: red;
+      text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
@@ -220,9 +229,18 @@ hr.small {
     margin: 10px;
 }
 
+.fa-stack-small {
+    position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  vertical-align: middle;
+}
+
 /* Map */
 
-.map {
+/*.map {
     height: 500px;
 }
 
@@ -230,7 +248,7 @@ hr.small {
     .map {
         height: 75%;
     }
-}
+}*/
 
 /* Footer */
 
