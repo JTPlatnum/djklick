@@ -70,6 +70,11 @@ body {
     background-color: rgba(255,255,255,0.8);
 }
 
+.btn-red {
+    background: #D12B31;
+    color: white;
+}
+
 /* Custom Horizontal Rule */
 
 hr.small {
