@@ -16,14 +16,26 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
 .bg-primary {
-    background-color: #006FD2;
+    background-color: black;
 }
 
 .text-vertical-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+.title-quote-top {
+    color: black;
 }
 
 .title-quote {
@@ -48,6 +60,7 @@ body {
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
+    margin-bottom: 20px;
 }
 
 .btn-dark:hover,
@@ -173,7 +186,7 @@ hr.small {
     position: static;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/bglight.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -264,4 +277,8 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+li a {
+    letter-spacing: 1px;
 }
